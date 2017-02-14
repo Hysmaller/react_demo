@@ -1,22 +1,26 @@
 /**
- * Created by huangyu on 2017/2/13.
+ * Created by jiangtao on 2017/2/14.
  */
-var path = require('path');
 
-var config = require("./config.json");
+var util = require("./webpack.util"),
+    path = require("path");
 
-var serverConfig = {
-    contentBase:path.join( __dirname ),
-    hot:true,
-    host:config.ip || '127.0.0.1',
-    inline:true,
-    port:config.port,
-    stats:{
-        colors:true,
-        cache:false,
-        exclude:[/node_modules[\\\/]]/]
+var devServer = {
+    //服务的根目录
+    contentBase: path.join( __dirname ),
+    //热更新
+    hot: true,
+    // 服务器地址
+    host: util.getIPAddress(),
+    inline: true,
+    // 端口号
+    port:util.port,
+    // historyApiFallback: true,
+    stats: {
+        colors: true,
+        cached: false,
+        exclude: [/node_modules[\\\/]/]
     }
 };
 
-module.exports = serverConfig;
-
+module.exports = devServer;

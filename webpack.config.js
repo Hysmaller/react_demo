@@ -1,40 +1,60 @@
 var webpack = require('webpack');
 var path = require('path');
-
-var serverConfig = {
-    port:'8080', //端口号
-    ip:''
-};
+var ServerConfig = require("./webpack.server");
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var AssetsPlugin = require('assets-webpack-plugin');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 var baseConfig = {
-    entry:"./main.js",
+    entry: {},
     output:{
-        path:'__dirname',
-        filename:"bundle.js"
+        path:__dirname,
+        filename:"[name].js"
     },
     module:{
         loaders:[
-            {test:/\.js$/,loader:'babel',exclude:/node_modules/},
-            {test:/\.css$/,loader:'style!css!autoprefixer'},
-            {test:/\.scss$/,loader:'style!css!sass?sourceMap'}
+            {
+                test:/\.jsx?$/,
+                loader:'babel-loader',
+                exclude:/node_modules/,
+                query: {
+                    presets: ['es2015','react']
+                }
+            },
+            {
+                test: /\.(scss|css)$/,
+                include: __dirname,
+                loader: 'style!css!sass'
+            }
         ]
-    }
+    },
 
+    devServer:ServerConfig,
+    plugins:[
+        new webpack.ProvidePlugin({
+            React: 'react',
+            ReactDOM:"react-dom"
+        }),
+    ]
 };
 
-//这里是配置服务器，包括热加载
-
-baseConfig.devServer = {
-    contentBase:path.join(__dirname),
-    hot:true,
-    host:serverConfig.ip || '127.0.0.1',
-    inline:true,
-    port:serverConfig.port,
-    stats:{
-        colors:true,
-        cache:false,
-        exclude:[/node_modules[\\\/]]/]
+var pages = [
+    {
+        chunkName:"demo",
+        path:path.join( __dirname , '/src/js/index.jsx')
     }
-};
+];
+
+
+pages.map(function ( file , index ) {
+    baseConfig.entry[ file.chunkName] = [ file.path ];
+    baseConfig.plugins.push( new HtmlWebpackPlugin({
+        template:"./server.template.html",
+        filename:file.chunkName + ".html",
+        chunks:[ file.chunkName ]
+    }));
+});
+
+
 
 module.exports = baseConfig;

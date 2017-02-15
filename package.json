@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.oschina.net/jack-team/webpack-dev.git"
+    "url": "git@github.com:Hysmaller/smaller.git"
   },
   "keywords": [
     "wepack",
     "react"
   ],
-  "author": "jiangtao",
+  "author": "huangyus",
   "license": "ISC",
   "devDependencies": {
     "assets-webpack-plugin": "^3.5.1",

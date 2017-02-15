@@ -1,5 +1,5 @@
 /**
- * Created by jiangtao on 2017/2/14.
+ * Created by haungyu on 2017/2/14.
  */
 
 var util = require("./webpack.util"),

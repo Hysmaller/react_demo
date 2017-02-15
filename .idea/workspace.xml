@@ -2,281 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92fd32d8-7e4a-4b95-aaac-0a3a76c2cc2a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.prod.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.util.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.0.9.8@regenerator-transform/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.0.9.8@regenerator-transform/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.0.9.8@regenerator-transform/node_modules/private" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.1.0.7@postcss-safe-parser/node_modules/postcss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.2.0.0@regexpu-core/node_modules/regenerate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.2.0.0@regexpu-core/node_modules/regjsgen" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.2.0.0@regexpu-core/node_modules/regjsparser" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.3.2.0@autoprefixer-loader/node_modules/autoprefixer" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.3.2.0@autoprefixer-loader/node_modules/loader-utils" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.3.2.0@autoprefixer-loader/node_modules/postcss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.3.2.0@autoprefixer-loader/node_modules/postcss-safe-parser" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.4.0.6@clean-css/node_modules/source-map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.4.3.1@query-string/node_modules/object-assign" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.4.3.1@query-string/node_modules/strict-uri-encode" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.5.2.12@postcss/node_modules/chalk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.5.2.12@postcss/node_modules/js-base64" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.5.2.12@postcss/node_modules/source-map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.5.2.12@postcss/node_modules/supports-color" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.2.10@babel-loader/node_modules/find-cache-dir" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.2.10@babel-loader/node_modules/loader-utils" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.2.10@babel-loader/node_modules/mkdirp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.2.10@babel-loader/node_modules/object-assign" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-call-delegate/node_modules/babel-helper-hoist-variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-call-delegate/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-call-delegate/node_modules/babel-traverse" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-call-delegate/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-define-map/node_modules/babel-helper-function-name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-define-map/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-define-map/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-define-map/node_modules/lodash" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-function-name/node_modules/babel-helper-get-function-arity" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-function-name/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-function-name/node_modules/babel-template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-function-name/node_modules/babel-traverse" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-function-name/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-get-function-arity/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-get-function-arity/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-hoist-variables/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-hoist-variables/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-optimise-call-expression/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-optimise-call-expression/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-regex/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-regex/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-regex/node_modules/lodash" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-replace-supers/node_modules/babel-helper-optimise-call-expression" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-replace-supers/node_modules/babel-messages" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-replace-supers/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-replace-supers/node_modules/babel-template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-replace-supers/node_modules/babel-traverse" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-helper-replace-supers/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-messages/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-check-es2015-constants/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-arrow-functions/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-block-scoped-functions/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-block-scoping/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-block-scoping/node_modules/babel-template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-block-scoping/node_modules/babel-traverse" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-block-scoping/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-block-scoping/node_modules/lodash" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-classes/node_modules/babel-helper-define-map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-classes/node_modules/babel-helper-function-name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-classes/node_modules/babel-helper-optimise-call-expression" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-classes/node_modules/babel-helper-replace-supers" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-classes/node_modules/babel-messages" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-classes/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-classes/node_modules/babel-template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-classes/node_modules/babel-traverse" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-classes/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-computed-properties/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-computed-properties/node_modules/babel-template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-destructuring/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-duplicate-keys/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-duplicate-keys/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-for-of/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-function-name/node_modules/babel-helper-function-name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-function-name/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-function-name/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-literals/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-modules-amd/node_modules/babel-plugin-transform-es2015-modules-commonjs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-modules-amd/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-modules-amd/node_modules/babel-template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-modules-commonjs/node_modules/babel-plugin-transform-strict-mode" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-modules-commonjs/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-modules-commonjs/node_modules/babel-template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-modules-commonjs/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-modules-systemjs/node_modules/babel-helper-hoist-variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-modules-systemjs/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-modules-systemjs/node_modules/babel-template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-modules-umd/node_modules/babel-plugin-transform-es2015-modules-amd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-modules-umd/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-modules-umd/node_modules/babel-template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-object-super/node_modules/babel-helper-replace-supers" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-object-super/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-parameters/node_modules/babel-helper-call-delegate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-parameters/node_modules/babel-helper-get-function-arity" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-parameters/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-parameters/node_modules/babel-template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-parameters/node_modules/babel-traverse" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-parameters/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-shorthand-properties/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-shorthand-properties/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-spread/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-sticky-regex/node_modules/babel-helper-regex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-sticky-regex/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-sticky-regex/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-template-literals/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-typeof-symbol/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-unicode-regex/node_modules/babel-helper-regex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-unicode-regex/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-es2015-unicode-regex/node_modules/regexpu-core" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-regenerator/node_modules/regenerator-transform" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-strict-mode/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-plugin-transform-strict-mode/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-check-es2015-constants" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-arrow-functions" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-block-scoped-functions" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-block-scoping" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-classes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-computed-properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-destructuring" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-duplicate-keys" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-for-of" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-function-name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-literals" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-modules-amd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-modules-commonjs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-modules-systemjs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-modules-umd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-object-super" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-parameters" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-shorthand-properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-spread" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-sticky-regex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-template-literals" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-typeof-symbol" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-es2015-unicode-regex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-preset-es2015/node_modules/babel-plugin-transform-regenerator" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-template/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-template/node_modules/babel-traverse" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-template/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-template/node_modules/babylon" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-template/node_modules/lodash" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-types/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-types/node_modules/esutils" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-types/node_modules/lodash" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.0@babel-types/node_modules/to-fast-properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.1@babel-traverse/node_modules/babel-code-frame" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.1@babel-traverse/node_modules/babel-messages" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.1@babel-traverse/node_modules/babel-runtime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.1@babel-traverse/node_modules/babel-types" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.1@babel-traverse/node_modules/babylon" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.1@babel-traverse/node_modules/debug" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.1@babel-traverse/node_modules/globals" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.1@babel-traverse/node_modules/invariant" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.6.22.1@babel-traverse/node_modules/lodash" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/autoprefixer-loader" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-helper-call-delegate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-helper-define-map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-helper-function-name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-helper-get-function-arity" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-helper-hoist-variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-helper-optimise-call-expression" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-helper-regex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-helper-replace-supers" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-check-es2015-constants" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-arrow-functions" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-block-scoped-functions" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-block-scoping" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-classes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-computed-properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-destructuring" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-duplicate-keys" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-for-of" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-function-name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-literals" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-modules-amd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-modules-commonjs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-modules-systemjs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-modules-umd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-object-super" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-parameters" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-shorthand-properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-spread" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-sticky-regex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-template-literals" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-typeof-symbol" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-es2015-unicode-regex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-regenerator" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-plugin-transform-strict-mode" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-preset-es2015" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/file-loader" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/postcss-safe-parser" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/regenerator-transform" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/index.jsx" afterPath="$PROJECT_DIR$/src/views/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.0.1.1@postcss-discard-overridden/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.0.1.1@postcss-discard-overridden/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.1.0.1@postcss-modules-extract-imports/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.1.0.1@postcss-modules-extract-imports/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.1.0.1@postcss-reduce-initial/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.1.0.1@postcss-reduce-initial/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.1.0.2@postcss-modules-scope/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.1.0.2@postcss-modules-scope/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.1.0.4@postcss-reduce-transforms/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.1.0.4@postcss-reduce-transforms/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.1.0.5@postcss-minify-font-values/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.1.0.5@postcss-minify-font-values/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.1.0.5@postcss-minify-gradients/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.1.0.5@postcss-minify-gradients/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.1.1.1@postcss-modules-local-by-default/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.1.1.1@postcss-modules-local-by-default/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.1.1.1@postcss-normalize-charset/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.1.1.1@postcss-normalize-charset/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.1.2.2@postcss-minify-params/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.1.2.2@postcss-minify-params/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.1.2.2@postcss-modules-values/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.1.2.2@postcss-modules-values/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.1.9.0@normalize-url/node_modules/query-string" afterPath="$PROJECT_DIR$/node_modules/.1.9.0@normalize-url/node_modules/query-string" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.2.0.2@postcss-discard-duplicates/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.2.0.2@postcss-discard-duplicates/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.2.0.2@postcss-filter-plugins/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.2.0.2@postcss-filter-plugins/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.2.0.2@postcss-merge-longhand/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.2.0.2@postcss-merge-longhand/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.2.0.2@postcss-unique-selectors/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.2.0.2@postcss-unique-selectors/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.2.0.4@postcss-discard-comments/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.2.0.4@postcss-discard-comments/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.2.1.0@postcss-discard-empty/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.2.1.0@postcss-discard-empty/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.2.1.1@postcss-merge-rules/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.2.1.1@postcss-merge-rules/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.2.1.1@postcss-minify-selectors/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.2.1.1@postcss-minify-selectors/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.2.1.6@postcss-svgo/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.2.1.6@postcss-svgo/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.2.1.7@postcss-merge-idents/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.2.1.7@postcss-merge-idents/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.2.2.0@postcss-zindex/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.2.2.0@postcss-zindex/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.2.2.2@postcss-colormin/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.2.2.2@postcss-colormin/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.2.2.3@postcss-discard-unused/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.2.2.3@postcss-discard-unused/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.2.2.3@postcss-ordered-values/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.2.2.3@postcss-ordered-values/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.2.4.0@postcss-reduce-idents/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.2.4.0@postcss-reduce-idents/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.2.6.1@postcss-convert-values/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.2.6.1@postcss-convert-values/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.3.0.6@nopt/node_modules/abbrev" afterPath="$PROJECT_DIR$/node_modules/.3.0.6@nopt/node_modules/abbrev" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.3.0.8@postcss-normalize-url/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.3.0.8@postcss-normalize-url/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.3.10.0@cssnano/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.3.10.0@cssnano/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.3.3.1@html-minifier/node_modules/clean-css" afterPath="$PROJECT_DIR$/node_modules/.3.3.1@html-minifier/node_modules/clean-css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.5.3.1@postcss-calc/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.5.3.1@postcss-calc/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.6.7.2@autoprefixer/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/.6.7.2@autoprefixer/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/abbrev" afterPath="$PROJECT_DIR$/node_modules/abbrev" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn" afterPath="$PROJECT_DIR$/node_modules/acorn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/async" afterPath="$PROJECT_DIR$/node_modules/async" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-loader" afterPath="$PROJECT_DIR$/node_modules/babel-loader" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-messages" afterPath="$PROJECT_DIR$/node_modules/babel-messages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-template" afterPath="$PROJECT_DIR$/node_modules/babel-template" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-traverse" afterPath="$PROJECT_DIR$/node_modules/babel-traverse" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-types" afterPath="$PROJECT_DIR$/node_modules/babel-types" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browserify-aes" afterPath="$PROJECT_DIR$/node_modules/browserify-aes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clean-css" afterPath="$PROJECT_DIR$/node_modules/clean-css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/co" afterPath="$PROJECT_DIR$/node_modules/co" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cross-spawn" afterPath="$PROJECT_DIR$/node_modules/cross-spawn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/crypto-browserify" afterPath="$PROJECT_DIR$/node_modules/crypto-browserify" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/css-loader" afterPath="$PROJECT_DIR$/node_modules/css-loader" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/css-selector-tokenizer" afterPath="$PROJECT_DIR$/node_modules/css-selector-tokenizer" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve" afterPath="$PROJECT_DIR$/node_modules/enhanced-resolve" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/glob-parent" afterPath="$PROJECT_DIR$/node_modules/glob-parent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/globals" afterPath="$PROJECT_DIR$/node_modules/globals" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/interpret" afterPath="$PROJECT_DIR$/node_modules/interpret" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.camelcase" afterPath="$PROJECT_DIR$/node_modules/lodash.camelcase" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-libs-browser" afterPath="$PROJECT_DIR$/node_modules/node-libs-browser" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass" afterPath="$PROJECT_DIR$/node_modules/node-sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss" afterPath="$PROJECT_DIR$/node_modules/postcss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/query-string" afterPath="$PROJECT_DIR$/node_modules/query-string" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/regexpu-core" afterPath="$PROJECT_DIR$/node_modules/regexpu-core" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ripemd160" afterPath="$PROJECT_DIR$/node_modules/ripemd160" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sass-loader" afterPath="$PROJECT_DIR$/node_modules/sass-loader" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sockjs-client" afterPath="$PROJECT_DIR$/node_modules/sockjs-client" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tapable" afterPath="$PROJECT_DIR$/node_modules/tapable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/watchpack" afterPath="$PROJECT_DIR$/node_modules/watchpack" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack" afterPath="$PROJECT_DIR$/node_modules/webpack" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-server" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/wordwrap" afterPath="$PROJECT_DIR$/node_modules/wordwrap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs" afterPath="$PROJECT_DIR$/node_modules/yargs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs-parser" afterPath="$PROJECT_DIR$/node_modules/yargs-parser" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sha.js" afterPath="$PROJECT_DIR$/node_modules/sha.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.template.html" afterPath="$PROJECT_DIR$/server.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.scss" afterPath="$PROJECT_DIR$/src/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.server.js" afterPath="$PROJECT_DIR$/webpack.server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/index.js" afterPath="$PROJECT_DIR$/src/views/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -304,8 +31,8 @@
       <file leaf-file-name="server.template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="75">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -324,7 +51,7 @@
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="360">
               <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="52" />
               <folding />
             </state>
@@ -344,8 +71,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <state relative-caret-position="-1635">
+              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -359,6 +86,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>goodDate</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -397,7 +129,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="56" />
-    <option name="y" value="63" />
+    <option name="y" value="71" />
     <option name="width" value="1400" />
     <option name="height" value="987" />
   </component>
@@ -419,8 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -446,9 +176,29 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smaller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smaller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -544,24 +294,25 @@
       <workItem from="1487034678574" duration="11297000" />
       <workItem from="1487082999528" duration="784000" />
       <workItem from="1487083970498" duration="3657000" />
+      <workItem from="1487087704451" duration="47000" />
+      <workItem from="1487120157140" duration="2866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36948000" />
+    <option name="totallyTimeSpent" value="39861000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="63" width="1400" height="987" extended-state="0" />
+    <frame x="56" y="71" width="1400" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19366716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19955817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68268156" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45251396" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -569,6 +320,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -586,6 +338,102 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webpack.page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -739,7 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,14 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -802,16 +640,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="360">
           <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="-1635">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding />
         </state>
       </provider>

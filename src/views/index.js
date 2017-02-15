@@ -63,15 +63,9 @@ var goodsList = [
 
 ]
 
-let newGoods  = [];
-
 class GoodsList extends React.Component{
     constructor(...args) {
         super(...args);
-
-        this.state = {
-            goodDate:[]
-        }
     }
 
     add( id ){
@@ -93,9 +87,6 @@ class GoodsList extends React.Component{
         goods.goodSaleTax = isSaleTax == 'T' ? goods.goodTotalPrice * 0.1 : 0 ;
 
         props.output && props.output(goods);
-
-    }
-    componentWillUpdate(){
 
     }
     render(){
@@ -157,7 +148,7 @@ class ParentList extends React.Component{
                    </tr>
                    </thead>
                    <tbody>
-                   { list };
+                   { list }
                    </tbody>
                </table>
                <TotalOrder list={state.addList}/>

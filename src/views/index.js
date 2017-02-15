@@ -138,7 +138,7 @@ class ParentList extends React.Component{
         });
         return (
            <div>
-               <table className="goodsTable">
+               <table className="goodsTable m-b-md">
                    <thead>
                    <tr className="thead">
                        <th>Goods</th>
@@ -152,6 +152,7 @@ class ParentList extends React.Component{
                    </tbody>
                </table>
                <TotalOrder list={state.addList}/>
+
            </div>
         )
     }
@@ -163,8 +164,15 @@ class TotalOrder extends React.Component{
     }
     render(){
         let { props } = this;
+        let { goodTotalPrice , goodTaxPrice } = { goodTotalPrice : 0 , goodTaxPrice : 0 };
+
+        {props.list.map(( item , index)=>{
+            goodTotalPrice += item.goodTotalPrice;
+            goodTaxPrice += (item.goodSaleTax + item.goodImportTax) ;
+        })}
 
         return (
+            <div>
             <table className="goodsTable">
                 <thead>
                 <tr className="thead">
@@ -195,6 +203,39 @@ class TotalOrder extends React.Component{
                 })}
                 </tbody>
             </table>
+            <TotalPrice goodTotalPrice = {goodTotalPrice} goodTaxPrice = {goodTaxPrice}/>
+        </div>
+        )
+    }
+}
+
+//总价
+
+class TotalPrice extends React.Component{
+    constructor(...agus){
+        super(...agus);
+    }
+    render(){
+        let { props } = this;
+        return (
+            <tabel>
+                {
+                    <tbody>
+                        <tr>
+                            <td>
+                                折扣：
+                            </td>
+                            <td> { props.goodTaxPrice}</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                总价：
+                            </td>
+                            <td> { props.goodTotalPrice }</td>
+                        </tr>
+                    </tbody>
+                }
+            </tabel>
         )
     }
 }
